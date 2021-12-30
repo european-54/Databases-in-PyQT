@@ -2,11 +2,10 @@ from common.variables import *
 from errors import IncorrectDataRecivedError, NonDictInputError
 import json
 import sys
-
-from practice.common.variables import MAX_PACKAGE_LENGTH, ENCODING
-
 sys.path.append('../')
 from decos import log
+
+from practice.common.variables import MAX_PACKAGE_LENGTH, ENCODING
 
 
 # Утилита приёма и декодирования сообщения
