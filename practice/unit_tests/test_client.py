@@ -1,4 +1,7 @@
 import sys
+
+from practice.common.variables import ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, ERROR, RESPONSE
+
 sys.path.append('../')
 from client import create_presence, process_response_ans
 from common.variables import *

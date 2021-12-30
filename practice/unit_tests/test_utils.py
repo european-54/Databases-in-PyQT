@@ -1,4 +1,10 @@
 import sys
+
+from pip._internal.cli.status_codes import ERROR
+
+from practice.common.utils import get_message, send_message
+from practice.common.variables import RESPONSE, ACCOUNT_NAME, USER, TIME, ACTION, PRESENCE
+
 sys.path.append('../')
 from common.utils import *
 from common.variables import *
