@@ -1,0 +1,8 @@
+a
+    Ч·]P  г                   @   s$   G d d„ de ѓZG dd„ de ѓZdS )c                   @   s   e Zd Zdd„ Zdd„ ZdS )ЪServerErrorc                 C   s
+   || _ d S ©N©Ъtext)Ъselfr   © r   ъR/home/su/Projects/GeekBrains/data-base-and-PyQt/lesson_5/practice/common/errors.pyЪ__init__   s    zServerError.__init__c                 C   s   | j S r   r   ©r   r   r   r   Ъ__str__   s    zServerError.__str__N©Ъ__name__Ъ
+__module__Ъ__qualname__r   r
+   r   r   r   r   r      s   r   c                   @   s   e Zd Zdd„ Zdd„ ZdS )ЪReqFieldMissingErrorc                 C   s
+   || _ d S r   ©Ъ
+missing_field)r   r   r   r   r   r      s    zReqFieldMissingError.__init__c                 C   s   d| j › dќS )Nu\   Р’ РїСЂРёРЅСЏС‚РѕРј СЃР»РѕРІР°СЂРµ РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚ РѕР±СЏР·Р°С‚РµР»СЊРЅРѕРµ РїРѕР»Рµ Ъ.r   r	   r   r   r   r
+      s    zReqFieldMissingError.__str__Nr   r   r   r   r   r      s   r   N)Ъ	Exceptionr   r   r   r   r   r   Ъ<module>   s   

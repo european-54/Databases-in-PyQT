@@ -1,0 +1,8 @@
+a
+    ЎN]р  г                   @   sV   d dl Z d dlZd dlZd dlZe jd   dЎdkr@e dЎZn
+e dЎZdd„ Z	dS )й    NЪclientйяяяяЪserverc                    s   ‡ fdd„}|S )Nc            
+      s8   t  d€ j› d| › d|› d€ j› ќЎ € | i |¤Ћ}|S )Nu'   Р‘С‹Р»Р° РІС‹Р·РІР°РЅР° С„СѓРЅРєС†РёСЏ u    c РїР°СЂР°РјРµС‚СЂР°РјРё z , u   . Р’С‹Р·РѕРІ РёР· РјРѕРґСѓР»СЏ )ЪloggerЪdebugЪ__name__Ъ
+__module__)ЪargsЪkwargsЪret©Ъfunc_to_log© ъQ/home/su/Projects/GeekBrains/data-base-and-PyQt/lesson_5/practice/common/decos.pyЪ	log_saver   s    &zlog.<locals>.log_saverr   )r
+   r   r   r   r   Ъlog   s    r   )
+ЪsysЪlogs.config_server_logЪlogsZlogs.config_client_logЪloggingЪargvЪfindЪ	getLoggerr   r   r   r   r   r   Ъ<module>   s   
+
