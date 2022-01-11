@@ -1,7 +1,6 @@
 import logging
 import sys
 
-
 # Инициализиция логера
 # метод определения модуля, источника запуска.
 if sys.argv[0].find('client') == -1:
