@@ -1,6 +1,11 @@
 a
+<<<<<<< HEAD
     E”]}  г                   @   sL   d dl Z d dlZejd   dЎdkr0e  dЎZn
 e  dЎZG dd„ dѓZdS )й    NЪclientйяяяяЪserverc                   @   s   e Zd Zdd„ Zdd„ ZdS )ЪPortc                 C   s@   d|  k rdk s0n t  d|› dќЎ tdѓ ||j| j< d S )Niя  i   uZ   РџРѕРїС‹С‚РєР° Р·Р°РїСѓСЃРєР° СЃ СѓРєР°Р·Р°РЅРёРµРј РЅРµРїРѕРґС…РѕРґСЏС‰РµРіРѕ РїРѕСЂС‚Р° u5   . Р”РѕРїСѓСЃС‚РёРјС‹ Р°РґСЂРµСЃР° СЃ 1024 РґРѕ 65535.й   )ЪloggerЪcriticalЪexitЪ__dict__Ъname)ЪselfЪinstanceЪvalue© r   ъP/home/su/Projects/GeekBrains/data-base-and-PyQt/lesson_5/practice/descryptors.pyЪ__set__   s    
+=======
+    6]}  г                   @   sL   d dl Z d dlZejd   dЎdkr0e  dЎZn
+e  dЎZG dd„ dѓZdS )й    NЪclientйяяяяЪserverc                   @   s   e Zd Zdd„ Zdd„ ZdS )ЪPortc                 C   s@   d|  k rdk s0n t  d|› dќЎ tdѓ ||j| j< d S )Niя  i   uZ   РџРѕРїС‹С‚РєР° Р·Р°РїСѓСЃРєР° СЃ СѓРєР°Р·Р°РЅРёРµРј РЅРµРїРѕРґС…РѕРґСЏС‰РµРіРѕ РїРѕСЂС‚Р° u5   . Р”РѕРїСѓСЃС‚РёРјС‹ Р°РґСЂРµСЃР° СЃ 1024 РґРѕ 65535.й   )ЪloggerЪcriticalЪexitЪ__dict__Ъname)ЪselfЪinstanceЪvalue© r   ъP/home/su/Projects/GeekBrains/data-base-and-PyQt/lesson_4/practice/descryptors.pyЪ__set__   s    
+>>>>>>> origin/lesson_5
 яzPort.__set__c                 C   s
    || _ d S )N)r   )r   Ъownerr   r   r   r   Ъ__set_name__   s    zPort.__set_name__N)Ъ__name__Ъ
 __module__Ъ__qualname__r   r   r   r   r   r   r      s   r   )ЪloggingЪsysЪargvЪfindЪ	getLoggerr   r   r   r   r   r   Ъ<module>   s
