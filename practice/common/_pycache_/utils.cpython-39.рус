@@ -1,20 +1,25 @@
 a
-    Чт\є  г                   @   s\   d dl T d dlmZmZ d dlZd dlZej dЎ d dlm	Z	 e	dd„ ѓZ
-e	dd	„ ѓZdS )
-й    )Ъ*)ЪIncorrectDataRecivedErrorЪNonDictInputErrorNz../)Ъlogc                 C   sD   |   tЎ}t|tѓr<| tЎ}t |Ў}t|tѓr6|S t	‚nt	‚d S ©N)
-ЪrecvЪMAX_PACKAGE_LENGTHЪ
-isinstanceЪbytesЪdecodeЪENCODINGЪjsonЪloadsЪdictr   )ЪclientZencoded_responseZ
-json_responseЪresponse© r   ъQ/home/su/Projects/GeekBrains/data-base-and-PyQt/lesson_4/practice/common/utils.pyЪget_message   s    
+    њx
+_  г                   @   sL   d dl Z d dlZej dЎ d dlT d dlmZ edd„ ѓZedd„ ѓZdS )	й    Nz../)Ъ*)Ъlogc                 C   s4   |   tЎ}| tЎ}t |Ў}t|tѓr,|S t‚dS )u‹
+    Р¤СѓРЅРєС†РёСЏ РїСЂРёС‘РјР° СЃРѕРѕР±С‰РµРЅРёР№ РѕС‚ СѓРґР°Р»С‘РЅРЅС‹С… РєРѕРјРїСЊСЋС‚РµСЂРѕРІ.
+    РџСЂРёРЅРёРјР°РµС‚ СЃРѕРѕР±С‰РµРЅРёСЏ JSON, РґРµРєРѕРґРёСЂСѓРµС‚ РїРѕР»СѓС‡РµРЅРЅРѕРµ СЃРѕРѕР±С‰РµРЅРёРµ
+    Рё РїСЂРѕРІРµСЂСЏРµС‚ С‡С‚Рѕ РїРѕР»СѓС‡РµРЅ СЃР»РѕРІР°СЂСЊ.
+    :param client: СЃРѕРєРµС‚ РґР»СЏ РїРµСЂРµРґР°С‡Рё РґР°РЅРЅС‹С….
+    :return: СЃР»РѕРІР°СЂСЊ - СЃРѕРѕР±С‰РµРЅРёРµ.
+    N)	ЪrecvЪMAX_PACKAGE_LENGTHЪdecodeЪENCODINGЪjsonЪloadsЪ
+isinstanceЪdictЪ	TypeError)ЪclientZencoded_responseZ
+json_responseЪresponse© r   ъQ/home/su/Projects/GeekBrains/data-base-and-PyQt/lesson_6/practice/common/utils.pyЪget_message   s
 
 
 
+r   c                 C   s"   t  |Ў}| tЎ}|  |Ў dS )u\
+    Р¤СѓРЅРєС†РёСЏ РѕС‚РїСЂР°РІРєРё СЃР»РѕРІР°СЂРµР№ С‡РµСЂРµР· СЃРѕРєРµС‚.
+    РљРѕРґРёСЂСѓРµС‚ СЃР»РѕРІР°СЂСЊ РІ С„РѕСЂРјР°С‚ JSON Рё РѕС‚РїСЂР°РІР»СЏРµС‚ С‡РµСЂРµР· СЃРѕРєРµС‚.
+    :param sock: СЃРѕРєРµС‚ РґР»СЏ РїРµСЂРµРґР°С‡Рё
+    :param message: СЃР»РѕРІР°СЂСЊ РґР»СЏ РїРµСЂРµРґР°С‡Рё
+    :return: РЅРёС‡РµРіРѕ РЅРµ РІРѕР·РІСЂР°С‰Р°РµС‚
+    N)r   ЪdumpsЪencoder   Ъsend)ЪsockЪmessageZ
+js_messageZencoded_messager   r   r   Ъsend_message   s
 
-r   c                 C   s0   t |tѓst‚t |Ў}| tЎ}|  |Ў d S r   )r	   r   r   r
-   ЪdumpsЪencoder   Ъsend)ЪsockЪmessageZ
-js_messageZencoded_messager   r   r   Ъsend_message   s
-    
-
-
-r   )Ъcommon.variablesЪerrorsr   r   r
-   ЪsysЪpathЪappendЪdecosr   r   r   r   r   r   r   Ъ<module>   s   
-
+r   )	r   ЪsysЪpathЪappendЪcommon.variablesЪcommon.decosr   r   r   r   r   r   r   Ъ<module>   s   
+
