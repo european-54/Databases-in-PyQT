@@ -1,0 +1,44 @@
+a
+    њx
+_l  г                   @   s(   d dl mZmZmZ G dd„ deѓZdS )й    )ЪQtCoreЪQtGuiЪ	QtWidgetsc                   @   s   e Zd Zdd„ Zdd„ ZdS )ЪUi_MainClientWindowc                 C   s   |  dЎ | ddЎ | t ddЎЎ t |Ў| _| j  dЎ t | jЎ| _	| j	 
+t ddddЎЎ | j	  d	Ў t | jЎ| _
+| j
+ 
+t dd
+ddЎЎ | j
+  d
+Ў t | jЎ| _| j 
+t dd
+ddЎЎ | j  dЎ t | jЎ| _| j 
+t ddddЎЎ | j  dЎ t | jЎ| _| j 
+t ddddЎЎ | j  dЎ t | jЎ| _| j 
+t ddd
+dЎЎ | j  dЎ t | jЎ| _| j 
+t ddddЎЎ | j  dЎ t | jЎ| _| j 
+t ddddЎЎ | j  dЎ t | jЎ| _| j 
+t d d
+d!dЎЎ | j  d"Ў t | jЎ| _| j 
+t d#d
+d!dЎЎ | j  d$Ў | | jЎ t |Ў| _| j 
+t ddddЎЎ | j  d%Ў t | jЎ| _| j  d&Ў t | jЎ| _| j  d'Ў | | jЎ t |Ў| _ | j   d(Ў | !| j Ў t "|Ў| _#| j#  d)Ў t "|Ў| _$| j$  d*Ў t "|Ў| _%| j%  d+Ў | j &| j#Ў | j &| j$Ў | j &| j%Ў | j 'Ў  | j &| j (Ў Ў | j &| j (Ў Ў |  )|Ў | jj* +| jj,Ў tj- .|Ў d S ),NЪMainClientWindowiф  i  Ъ
+centralwidgetй
+   r   йe   й   Ъlabel_contactsiВ  йy   й   Ъbtn_add_contactйЊ   Ъbtn_remove_contacti,  i‡  й   Ъ
+label_historyih  i№  йG   Ъtext_messageiJ  Ъlabel_new_messageй   йы   i›  Ъ
+list_contactsi-  Ъ
+list_messagesib  йѓ   Ъbtn_sendiМ  Ъ	btn_clearЪmenubarЪmenuЪmenu_2Ъ	statusBarЪ	menu_exitЪmenu_add_contactЪmenu_del_contact)/Ъ
+setObjectNameЪresizeZsetMinimumSizer   ZQSizer   ZQWidgetr   ZQLabelr   ZsetGeometryZQRectZQPushButtonr   r   r   Z	QTextEditr   r   Ъ	QListViewr   r   r   r   ZsetCentralWidgetZQMenuBarr   ZQMenur   r   Z
+setMenuBarZ
+QStatusBarr    ZsetStatusBarZQActionr!   r"   r#   Z	addActionZaddSeparatorZ
+menuActionЪ
+retranslateUiЪclickedЪconnectЪclearZQMetaObjectZconnectSlotsByName)Ъselfr   © r,   ъ\/home/su/Projects/GeekBrains/data-base-and-PyQt/lesson_6/practice/client/main_window_conv.pyЪsetupUi   s|    
+
+
+zUi_MainClientWindow.setupUic                 C   sф   t jj}| |ddѓЎ | j |ddѓЎ | j |ddѓЎ | j |ddѓЎ | j |ddѓЎ | j	 |ddѓЎ | j
+ |ddѓЎ | j |dd	ѓЎ | j 
+|dd
+ѓЎ | j 
+|ddѓЎ | j |ddѓЎ | j |ddѓЎ | j |ddѓЎ d S )
+Nr   u'   Р§Р°С‚ РџСЂРѕРіСЂР°РјРјР° alpha releaseu    РЎРїРёСЃРѕРє РєРѕРЅС‚Р°РєС‚РѕРІ:u   Р”РѕР±Р°РІРёС‚СЊ РєРѕРЅС‚Р°РєС‚u   РЈРґР°Р»РёС‚СЊ РєРѕРЅС‚Р°РєС‚u"   РСЃС‚РѕСЂРёСЏ СЃРѕРѕР±С‰РµРЅРёР№:u-   Р’РІРµРґРёС‚Рµ РЅРѕРІРѕРµ СЃРѕРѕР±С‰РµРЅРёРµ:u%   РћС‚РїСЂР°РІРёС‚СЊ СЃРѕРѕР±С‰РµРЅРёРµu   РћС‡РёСЃС‚РёС‚СЊ РїРѕР»Рµu   Р¤Р°Р№Р»u   РљРѕРЅС‚Р°РєС‚С‹u
+   Р’С‹С…РѕРґ)r   ZQCoreApplicationЪ	translateЪsetWindowTitler   ЪsetTextr   r   r   r   r   r   r   ZsetTitler   r!   r"   r#   )r+   r   Z
+_translater,   r,   r-   r'   M   s    z!Ui_MainClientWindow.retranslateUiN)Ъ__name__Ъ
+__module__Ъ__qualname__r.   r'   r,   r,   r,   r-   r      s   Ar   N)ЪPyQt5r   r   r   Ъobjectr   r,   r,   r,   r-   Ъ<module>	   s   
