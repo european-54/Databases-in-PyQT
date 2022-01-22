@@ -1,0 +1,22 @@
+SQLite format 3   @                                                                     .И
+є  ‚В‰                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  Ѓ ЃStablecontactscontactsCREATE TABLE contacts (
+	id INTEGER NOT NULL,
+	name VARCHAR,
+	PRIMARY KEY (id),
+	UNIQUE (name)
+)/C indexsqlite_autoindex_contacts_1contacts       Ѓ=++‚1tablemessage_historymessage_historyCREATE TABLE message_history (
+	id INTEGER NOT NULL,
+	contact VARCHAR,
+	direction VARCHAR,
+	message TEXT,
+	date DATETIME,
+	PRIMARY KEY (id)
+)|##Ѓ?tableknown_usersknown_usersCREATE TABLE known_users (
+	id INTEGER NOT NULL,
+	username VARCHAR,
+	PRIMARY KEY (id)
+)
+    
+    
+    
+    
