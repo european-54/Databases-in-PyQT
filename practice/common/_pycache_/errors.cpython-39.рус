@@ -1,0 +1,8 @@
+a
+    Џ\!]‹  г                   @   s   G d d„ de ѓZdS )c                   @   s    e Zd ZdZdd„ Zdd„ ZdS )ЪServerErroruн
+    РљР»Р°СЃСЃ - РёСЃРєР»СЋС‡РµРЅРёРµ, РґР»СЏ РѕР±СЂР°Р±РѕС‚РєРё РѕС€РёР±РѕРє СЃРµСЂРІРµСЂР°.
+    РџСЂРё РіРµРЅРµСЂР°С†РёРё С‚СЂРµР±СѓРµС‚ СЃС‚СЂРѕРєСѓ СЃ РѕРїРёСЃР°РЅРёРµРј РѕС€РёР±РєРё,
+    РїРѕР»СѓС‡РµРЅРЅСѓСЋ СЃ СЃРµСЂРІРµСЂР°.
+    c                 C   s
+   || _ d S ©N©Ъtext)Ъselfr   © r   ъR/home/su/Projects/GeekBrains/data-base-and-PyQt/lesson_7/practice/common/errors.pyЪ__init__   s    zServerError.__init__c                 C   s   | j S r   r   )r   r   r   r   Ъ__str__   s    zServerError.__str__N)Ъ__name__Ъ
+__module__Ъ__qualname__Ъ__doc__r   r	   r   r   r   r   r      s   r   N)Ъ	Exceptionr   r   r   r   r   Ъ<module>   у

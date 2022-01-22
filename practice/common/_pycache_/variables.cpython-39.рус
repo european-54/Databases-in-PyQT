@@ -1,10 +1,11 @@
 a
-    Ёї­a¬  г                   @   sЋ   d dl Z dZdZdZdZdZe jZdZdZ	d	Z
+    Ъ]N  г                   @   s®   d dl Z dZdZdZdZdZe jZdZdZ	d	Z
 d
 ZdZdZ
 d
-ZdZdZdZdZdZdZdZdZdZdZdZediZedediZedediZdS )й    Nia  z	127.0.0.1й   i   zutf-8z
-server.iniЪactionЪtimeЪuserZaccount_nameЪfromЪtoZpresenceЪresponseЪerrorЪmessageZ	mess_textЪexitЪget_contactsZ	data_listЪremoveЪaddZ	get_usersйИ   йК   iђ  )ЪloggingZDEFAULT_PORTZDEFAULT_IP_ADDRESSZMAX_CONNECTIONSZMAX_PACKAGE_LENGTHЪENCODINGЪDEBUGЪ
+ZdZdZdZdZdZdZdZdZdZdZdZdZdZdZediZedediZedediZediZ ed ediZ!dS )!й    Nia  z	127.0.0.1й   i (  zutf-8z
+server.iniЪactionЪtimeЪuserZaccount_nameЪfromЪtoЪbinZpubkeyZpresenceZresponseЪerrorЪmessageZ	mess_textЪexitZget_contactsZ	data_listЪremoveЪaddZ	get_usersZpubkey_needйИ   йК   iђ  йН   iя  )"ЪloggingЪDEFAULT_PORTZDEFAULT_IP_ADDRESSZMAX_CONNECTIONSZMAX_PACKAGE_LENGTHЪENCODINGЪDEBUGЪ
 LOGGING_LEVELZ
-SERVER_CONFIGЪACTIONЪTIMEЪUSERЪACCOUNT_NAMEЪSENDERЪDESTINATIONЪPRESENCEZRESPONSEЪERRORЪMESSAGEЪMESSAGE_TEXTЪEXITЪGET_CONTACTSЪ	LIST_INFOЪREMOVE_CONTACTЪADD_CONTACTЪ
-USERS_REQUESTЪRESPONSE_200ЪRESPONSE_202ЪRESPONSE_400© r(   r(   ъU/home/su/Projects/GeekBrains/data-base-and-PyQt/lesson_4/practice/common/variables.pyЪ<module>   s>   яю
+SERVER_CONFIGZACTIONZTIMEZUSERZACCOUNT_NAMEZSENDERZDESTINATIONZDATAZ
+PUBLIC_KEYZPRESENCEZRESPONSEЪERRORZMESSAGEZMESSAGE_TEXTZEXITZGET_CONTACTSZ	LIST_INFOZREMOVE_CONTACTZADD_CONTACTZ
+USERS_REQUESTZPUBLIC_KEY_REQUESTZRESPONSE_200ZRESPONSE_202ZRESPONSE_400ZRESPONSE_205ZRESPONSE_511© r   r   ъU/home/su/Projects/GeekBrains/data-base-and-PyQt/lesson_7/practice/common/variables.pyЪ<module>   sN   яюяю
